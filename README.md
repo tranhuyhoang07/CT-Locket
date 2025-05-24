@@ -39,7 +39,7 @@ sudo apt install -y python3-pip
 ### ⬇️ Tải CT-Locket Tool
 
 ```bash
-git clone https://github.com/WusThanhDieu/zLocket-Tool-Pro.git
+git clone https://github.com/NguyenNhatSakura/CT-Locket.git
 ```
 > Lệnh cài môi trường và pip giống lệnh trên máy tính nên không cần hướng dẫn ở đây
 ### 📂 Đến Thư Mục Tool
