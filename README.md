@@ -1,7 +1,7 @@
 
 # 🚀 CT-Locket Tool Open Source v1.2 🚀
 
-![Demo](https://img.upanh.tv/2025/05/22/Screenshot-2025-05-22-154810b90ede21fb12bd34.png)
+![Demo](https://img.upanh.tv/2025/05/24/Screenshot-18.png)
 
 > Đây là công cụ giúp bạn tăng bạn bè ảo hoàn loạt bằng cách tạo nhiều tài khoản rác và gửi yêu cầu kết bạn tới Locket được chỉ định.<br>
 Đừng nghĩ đây chỉ là tool spam kết bạn và chỉ cần tắt yêu cầu kết bạn hoặc tắt thông báo là xong, vì Locket Widget sử dụng api fetch user liên tục khi vào app, nếu quá nhiều yêu cầu kết bạn sẽ dẫn đến bị <b>Overload</b> cũng có thể bị lỗi mất hiển thị bạn bè cực kì khó chịu.
