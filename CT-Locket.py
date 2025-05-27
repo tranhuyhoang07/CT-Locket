@@ -114,47 +114,7 @@ class CTLocket:
         self.NAME_TOOL="CTLocket Tool Pro"
         self.VERSION_TOOL="v1.2"
         self.TARGET_FRIEND_UID=target_friend_uid if target_friend_uid else None
-        self.PROXY_LIST = [
-    # ===== GitHub Proxy HTTP Raw Links =====
-    'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt',
-    'https://thanhdieu.com/api/list/proxyv3.txt',
-    'https://vakhov.github.io/fresh-proxy-list/http.txt',
-    'https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt',
-    'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt',
-    'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt',
-    'https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt',
-    'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt',
-    'https://raw.githubusercontent.com/monosans/proxy-list/main/proxies.txt',
-    'https://raw.githubusercontent.com/monosans/proxy-list/main/http.txt',
-    'https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS.txt',
-    'https://raw.githubusercontent.com/opsxcq/proxy-list/master/list/http.txt',
-    'https://raw.githubusercontent.com/opsxcq/proxy-list/master/list/http_highanon.txt',
-    'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt',
-    'https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt',
-    'https://raw.githubusercontent.com/almroot/proxylist/main/http.txt',
-    'https://raw.githubusercontent.com/hookzof/socks5_list/master/http.txt',
-    'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-elite.txt',
-    'https://raw.githubusercontent.com/monosans/proxy-list/main/elite.txt',
-    'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt',
-    'https://raw.githubusercontent.com/monosans/proxy-list/main/https.txt',
-    'https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list.txt',
-    'https://raw.githubusercontent.com/roosterkid/openproxylist/main/http.txt',
-    'https://raw.githubusercontent.com/monosans/proxy-list/main/socks4.txt',
-    'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt',
-    'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt',
-
-    # ===== GitLab Proxy HTTP Raw Links =====
-    'https://gitlab.com/roosterkid/openproxylist/-/raw/main/HTTPS.txt',
-    'https://gitlab.com/monosans/proxy-list/-/raw/main/http.txt',
-    'https://gitlab.com/monosans/proxy-list/-/raw/main/elite.txt',
-    'https://gitlab.com/almroot/proxylist/-/raw/main/http.txt',
-    'https://gitlab.com/mertguvencli/http-proxy-list/-/raw/main/proxy-list/data.txt',
-    'https://gitlab.com/almroot/proxylist/-/raw/main/https.txt',
-    'https://gitlab.com/monosans/proxy-list/-/raw/main/https.txt',
-    'https://gitlab.com/mertguvencli/http-proxy-list/-/raw/main/proxy-list/https.txt',
-    'https://gitlab.com/monosans/proxy-list/-/raw/main/socks4.txt',
-    'https://gitlab.com/monosans/proxy-list/-/raw/main/socks5.txt',
-]
+        self.PROXY_LIST = ['https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt','https://thanhdieu.com/api/list/proxyv3.txt','https://vakhov.github.io/fresh-proxy-list/http.txt','https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt','https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt','https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt','https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt','https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt','https://raw.githubusercontent.com/monosans/proxy-list/main/proxies.txt','https://raw.githubusercontent.com/monosans/proxy-list/main/http.txt','https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS.txt','https://raw.githubusercontent.com/opsxcq/proxy-list/master/list/http.txt','https://raw.githubusercontent.com/opsxcq/proxy-list/master/list/http_highanon.txt','https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt','https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt','https://raw.githubusercontent.com/almroot/proxylist/main/http.txt','https://raw.githubusercontent.com/hookzof/socks5_list/master/http.txt','https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-elite.txt','https://raw.githubusercontent.com/monosans/proxy-list/main/elite.txt','https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt','https://raw.githubusercontent.com/monosans/proxy-list/main/https.txt','https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list.txt','https://raw.githubusercontent.com/roosterkid/openproxylist/main/http.txt','https://raw.githubusercontent.com/monosans/proxy-list/main/socks4.txt','https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt','https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks4.txt','https://api.proxyscrape.com/?request=displayproxies&proxytype=http','https://daudau.org/api/http.txt','https://api.openproxylist.xyz/http.txt','https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt','http://worm.rip/http.txt','https://proxy-spider.com/api/proxies.example.txt','https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt','https://proxyspace.pro/http.txt','https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt','https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt','https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt','https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt','https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt','https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt','https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt','https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt','https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt','https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt','https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt','https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt','https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt','https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt','https://firet.io/firetx_retro/datacanthiet/proxies.txt','https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt','https://raw.githubusercontent.com/almroot/proxylist/master/list.txt','https://openproxylist.xyz/http.txt','https://raw.githubusercontent.com/monosans/proxy-list/main/proxies_anonymous/http.txt','http://rootjazz.com/proxies/proxies.txt','https://api.proxyscrape.com/?request=displayproxies&proxytype=https','https://www.proxy-list.download/api/v1/get?type=http','https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt','https://api.openproxylist.xyz/http.txt','https://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt','https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt','https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt','https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt','https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt','https://proxy-spider.com/api/proxies.example.txt','https://multiproxy.org/txt_all/proxy.txt','https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt','https://proxyspace.pro/https.txt','https://raw.githubusercontent.com/almroot/proxylist/master/list.txt','https://raw.githubusercontent.com/aslisk/proxyhttps/main/https.txt','https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/HTTP.txt','https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt','https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt','https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt','https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt','https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt','https://raw.githubusercontent.com/saisuiu/uiu/main/free.txt','https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt','https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt','https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt','https://www.proxy-list.download/api/v1/get?type=https','https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt','https://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt','https://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/cnfree.txt','https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt','https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt','https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt','https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt','https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt','https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies_anonymous/http.txt','https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt','https://sunny9577.github.io/proxy-scraper/proxies.txt']
         self.print_lock=threading.Lock()
         self.successful_requests=0
         self.failed_requests=0
@@ -489,16 +449,16 @@ class CTLocket:
         return input()
     def _CTLocket_panel_(self):
         _clear_()
-        print(f"\n{xColor.CYAN}╔═══════════════════════════════════════════════════════╗")
+        print(f"\n{xColor.CYAN}╔═════════════════════════════════════════════════════════════════════╗")
         print(f"{xColor.RED} ██████╗{xColor.GREEN}████████╗   {xColor.RED}██╗      {xColor.GREEN}██████╗  {xColor.RED}██████╗{xColor.GREEN}██╗  ██╗{xColor.RED}███████╗{xColor.GREEN}████████╗")
         print(f"{xColor.RED}██╔════╝{xColor.GREEN}╚══██╔══╝   {xColor.RED}██║     {xColor.GREEN}██╔═══██╗{xColor.RED}██╔════╝{xColor.GREEN}██║ ██╔╝{xColor.RED}██╔════╝{xColor.GREEN}╚══██╔══╝")
         print(f"{xColor.RED}██║     {xColor.GREEN}   ██║{xColor.RED}█████╗{xColor.GREEN}██║     {xColor.RED}██║   ██║{xColor.GREEN}██║     {xColor.RED}█████╔╝ {xColor.GREEN}█████╗   {xColor.RED}  ██║")
         print(f"{xColor.RED}██║     {xColor.GREEN}   ██║{xColor.RED}╚════╝{xColor.GREEN}██║     {xColor.RED}██║   ██║{xColor.GREEN}██║     {xColor.RED}██╔═██╗ {xColor.GREEN}██╔══╝   {xColor.RED}  ██║")
-        print(f"{xColor.RED}╚██████╗{xColor.GREEN}   ██║      {xColor.RED}███████╗{xColor.GREEN}╚██████╔╝{xColor.RED}╚██████╗{xColor.GREEN}██║  ██╗{xColor.RED}███████╗{xColor.GREEN}  ██║")
-        print(f"{xColor.RED} ╚═════╝{xColor.GREEN}   ╚═╝      {xColor.RED}╚══════╝{xColor.GREEN} ╚═════╝  {xColor.RED}╚═════╝{xColor.GREEN}╚═╝  ╚═╝{xColor.RED}╚══════╝{xColor.GREEN}  ╚═╝")
-        print(f"{xColor.CYAN}║ {xColor.YELLOW}            LOCKET LAUNCHER ADVANCED PANEL            {xColor.CYAN}║")
-        print(f"{xColor.CYAN}║ {xColor.RED}           [Discord: @{self.discord}]          {xColor.CYAN}║")
-        print(f"{xColor.CYAN}╚═══════════════════════════════════════════════════════╝\n")
+        print(f"{xColor.RED}╚██████╗{xColor.GREEN}   ██║      {xColor.RED}███████╗{xColor.GREEN}╚██████╔╝{xColor.RED}╚██████╗{xColor.GREEN}██║  ██╗{xColor.RED}███████╗{xColor.GREEN}   ██║")
+        print(f"{xColor.RED} ╚═════╝{xColor.GREEN}   ╚═╝      {xColor.RED}╚══════╝{xColor.GREEN} ╚═════╝  {xColor.RED}╚═════╝{xColor.GREEN}╚═╝  ╚═╝{xColor.RED}╚══════╝{xColor.GREEN}   ╚═╝")
+        print(f"{xColor.CYAN}║ {xColor.YELLOW}               LOCKET LAUNCHER ADVANCED PANEL                        {xColor.CYAN}║")
+        print(f"{xColor.CYAN}║ {xColor.RED}              [Discord: {self.discord}]                       {xColor.CYAN}║")
+        print(f"{xColor.CYAN}╚══════════════════════════════════════════════════════════════════════╝\n")
         target_input=self._input_(
             f"Nhập Username hoặc Link Locket {xColor.YELLOW}", "target")
         if not target_input.strip():
@@ -670,7 +630,7 @@ def _rand_str_(length=10, chars=string.ascii_lowercase + string.digits):
 def _rand_name_():
     return _rand_str_(8, chars=string.ascii_lowercase)
 def _rand_email_():
-    return f"{_rand_str_(15)}@thanhdieu.com"
+    return f"{_rand_str_(15)}@nguynminhnhat.camtu"
 def _rand_pw_():
     return 'CTLocket' + _rand_str_(4)
 def _clear_():
@@ -701,35 +661,34 @@ def _matrix_():
                     line+=" "
             print(line)
         time.sleep(0.2)
+
+PRINT_LOCK = threading.Lock()
+def sfprint(*args, **kwargs):
+    print(*args, **kwargs)
 def _banner_():
     try:
-        wterm=os.get_terminal_size().columns
+        wterm = os.get_terminal_size().columns
     except:
-        wterm=80
+        wterm = 80
     banner = [
-       f"{xColor.RED} ██████╗{xColor.GREEN}████████╗   {xColor.RED}██╗      {xColor.GREEN}██████╗  {xColor.RED}██████╗{xColor.GREEN}██╗  ██╗{xColor.RED}███████╗{xColor.GREEN}████████╗",
-       f"{xColor.RED}██╔════╝{xColor.GREEN}╚══██╔══╝   {xColor.RED}██║     {xColor.GREEN}██╔═══██╗{xColor.RED}██╔════╝{xColor.GREEN}██║ ██╔╝{xColor.RED}██╔════╝{xColor.GREEN}╚══██╔══╝",
-       f"{xColor.RED}██║     {xColor.GREEN}   ██║{xColor.RED}█████╗{xColor.GREEN}██║     {xColor.RED}██║   ██║{xColor.GREEN}██║     {xColor.RED}█████╔╝ {xColor.GREEN}█████╗   {xColor.RED}  ██║",
-       f"{xColor.RED}██║     {xColor.GREEN}   ██║{xColor.RED}╚════╝{xColor.GREEN}██║     {xColor.RED}██║   ██║{xColor.GREEN}██║     {xColor.RED}██╔═██╗ {xColor.GREEN}██╔══╝   {xColor.RED}  ██║",
-       f"{xColor.RED}╚██████╗{xColor.GREEN}   ██║      {xColor.RED}███████╗{xColor.GREEN}╚██████╔╝{xColor.RED}╚██████╗{xColor.GREEN}██║  ██╗{xColor.RED}███████╗{xColor.GREEN}  ██║",
-       f"{xColor.RED} ╚═════╝{xColor.GREEN}   ╚═╝      {xColor.RED}╚══════╝{xColor.GREEN} ╚═════╝  {xColor.RED}╚═════╝{xColor.GREEN}╚═╝  ╚═╝{xColor.RED}╚══════╝{xColor.GREEN}  ╚═╝",
-       f"{xColor.WHITE}[ {xColor.YELLOW}Author: @{config.author} {xColor.RED}|{xColor.WHITE} {xColor.GREEN}{config.NAME_TOOL} {config.VERSION_TOOL}{xColor.WHITE} ]"
-    ]   
+        f"{xColor.RED} ██████╗{xColor.GREEN}████████╗   {xColor.RED}██╗      {xColor.GREEN}██████╗  {xColor.RED}██████╗{xColor.GREEN}██╗  ██╗{xColor.RED}███████╗{xColor.GREEN}████████╗",
+        f"{xColor.RED}██╔════╝{xColor.GREEN}╚══██╔══╝   {xColor.RED}██║     {xColor.GREEN}██╔═══██╗{xColor.RED}██╔════╝{xColor.GREEN}██║ ██╔╝{xColor.RED}██╔════╝{xColor.GREEN}╚══██╔══╝",
+        f"{xColor.RED}██║     {xColor.GREEN}   ██║{xColor.RED}█████╗{xColor.GREEN}██║     {xColor.RED}██║   ██║{xColor.GREEN}██║     {xColor.RED}█████╔╝ {xColor.GREEN}█████╗   {xColor.RED}  ██║",
+        f"{xColor.RED}██║     {xColor.GREEN}   ██║{xColor.RED}╚════╝{xColor.GREEN}██║     {xColor.RED}██║   ██║{xColor.GREEN}██║     {xColor.RED}██╔═██╗ {xColor.GREEN}██╔══╝   {xColor.RED}  ██║",
+        f"{xColor.RED}╚██████╗{xColor.GREEN}   ██║      {xColor.RED}███████╗{xColor.GREEN}╚██████╔╝{xColor.RED}╚██████╗{xColor.GREEN}██║  ██╗{xColor.RED}███████╗{xColor.GREEN}  ██║",
+        f"{xColor.RED} ╚═════╝{xColor.GREEN}   ╚═╝      {xColor.RED}╚══════╝{xColor.GREEN} ╚═════╝  {xColor.RED}╚═════╝{xColor.GREEN}╚═╝  ╚═╝{xColor.RED}╚══════╝{xColor.GREEN}  ╚═╝",
+        f"{xColor.WHITE}[ {xColor.YELLOW}Author: @{config.author} {xColor.RED}|{xColor.WHITE} {xColor.GREEN}{config.NAME_TOOL} {config.VERSION_TOOL}{xColor.WHITE} ]"
+    ]
     def visible_length(text):
-        clean=re.sub(r'\033\[[0-9;]+m', '', text)
-        return len(clean)
-    centered=[]
+        return len(re.sub(r'\x1b\[[0-9;]*m', '', text))
+    centered = []
     for line in banner:
-        line_length=visible_length(line)
-        padding=(wterm - line_length) // 2
-        if padding > 0:
-            center=" " * padding + line
-        else:
-            center=line
-        centered.append(center)
-    banner="\n" + "\n".join(centered) + "\n"
+        line_length = visible_length(line)
+        padding = max((wterm - line_length) // 2, 0)
+        centered.append(" " * padding + line)
+    final_banner = "\n" + "\n".join(centered) + "\n"
     with PRINT_LOCK:
-        sfprint(banner)
+        sfprint(final_banner)
 def _stats_():
     elapsed=time.time() - config.start_time
     hours, remainder=divmod(int(elapsed), 3600)
@@ -748,44 +707,45 @@ def _stats_():
 """
     return stats
 def load_proxies():
-    proxies=[]
-    proxy_urls=config.PROXY_LIST
-    config._print(
-        f"{xColor.MAGENTA}{Style.BRIGHT}[*] {xColor.CYAN}Initializing proxy collection system...")
+    proxies = set()
+    proxy_urls = config.PROXY_LIST
+    def save_proxy(proxy_list):
+        try:
+            with open('proxy.txt', 'a') as f:
+                for proxy in proxy_list:
+                    if proxy not in proxies:
+                        f.write(proxy + '\n')
+                        proxies.add(proxy)
+        except Exception as e:
+            config._print(f"{xColor.RED}[!] {xColor.YELLOW}Error saving proxies: {str(e)}")
+    config._print(f"{xColor.MAGENTA}{Style.BRIGHT}[*] {xColor.CYAN}Initializing proxy collection system...")
     try:
         with open('proxy.txt', 'r') as f:
-            file_proxies=[line.strip() for line in f if line.strip()]
-            config._print(
-                f"{xColor.MAGENTA}[+] {xColor.GREEN}Found {xColor.WHITE}{len(file_proxies)} {xColor.GREEN}proxies in local storage (proxy.txt)")
-            config._loader_("Processing local proxies", 1)
-            proxies.extend(file_proxies)
+            existing = [line.strip() for line in f if line.strip()]
+            proxies.update(existing)
+            config._print(f"{xColor.MAGENTA}[+] {xColor.GREEN}Found {xColor.WHITE}{len(existing)} {xColor.GREEN}proxies in local storage")
     except FileNotFoundError:
-        config._print(
-            f"{xColor.YELLOW}[!] {xColor.RED}No local proxy file detected, trying currently available proxies...")
+        config._print(f"{xColor.YELLOW}[!] {xColor.RED}No proxy.txt found. Creating new one...")
+    save_proxy([])
     for url in proxy_urls:
         try:
-            config._print(
-                f"{xColor.MAGENTA}[*] {xColor.CYAN}Fetching proxies from {xColor.WHITE}{url}")
+            config._print(f"{xColor.MAGENTA}[*] {xColor.CYAN}Fetching proxies from {xColor.WHITE}{url}")
             config._loader_(f"Connecting to {url.split('/')[2]}", 1)
-            response=requests.get(url, timeout=config.request_timeout)
+            response = requests.get(url, timeout=config.request_timeout)
             response.raise_for_status()
-            url_proxies=[line.strip()
-                           for line in response.text.splitlines() if line.strip()]
-            proxies.extend(url_proxies)
-            config._print(
-                f"{xColor.MAGENTA}[+] {xColor.GREEN}Harvested {xColor.WHITE}{len(url_proxies)} {xColor.GREEN}proxies from {url.split('/')[2]}")
+            url_proxies = [line.strip() for line in response.text.splitlines() if line.strip()]
+            new_proxies = [p for p in url_proxies if p not in proxies]
+            save_proxy(new_proxies)
+            config._print(f"{xColor.MAGENTA}[+] {xColor.GREEN}Fetched {xColor.WHITE}{len(new_proxies)} {xColor.GREEN}new proxies from {url.split('/')[2]}")
         except requests.exceptions.RequestException as e:
-            config._print(
-                f"{xColor.RED}[!] {xColor.YELLOW}Connection failed: {url.split('/')[2]} - {str(e)}")
-    proxies=list(set(proxies))
+            config._print(f"{xColor.RED}[!] {xColor.YELLOW}Failed: {url.split('/')[2]} - {str(e)}")
     if not proxies:
-        config._print(
-            f"{xColor.RED}[!] {xColor.YELLOW}Critical failure: No proxies available for operation")
+        config._print(f"{xColor.RED}[!] {xColor.YELLOW}No proxies loaded — operation aborted")
         return []
-    config.total_proxies=len(proxies)
-    config._print(
-        f"{xColor.GREEN}[+] {xColor.CYAN}Proxy harvesting complete. {xColor.WHITE}{len(proxies)} {xColor.CYAN}unique proxies loaded")
-    return proxies
+    config.total_proxies = len(proxies)
+    config._print(f"{xColor.GREEN}[+] {xColor.CYAN}Total proxies ready: {xColor.WHITE}{len(proxies)}")
+    return list(proxies)
+
 def init_proxy():
     proxies=load_proxies()
     if not proxies:
